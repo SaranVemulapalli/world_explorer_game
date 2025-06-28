@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Hide scrollbars, let Phaser manage the view */
+}
+#root {
+  width: 100vw; /* Viewport width */
+  height: 100vh; /* Viewport height */
+  display: flex; /* Use flexbox for centering if needed, though Phaser takes over */
+  justify-content: center;
+  align-items: center;
+}
